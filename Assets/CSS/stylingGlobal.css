@@ -78,10 +78,16 @@ footer{
     font-size: 16px;
 }
 
-.foot .logo{
-width: 55%;
-height: auto;
+.foot a{
+    width: 25%; 
+    display: flex;
+    align-items: center;;
 }
+
+.foot .logo{
+    width: 100%;
+    height: auto;
+    }
 
 .foot i{
     font-size: 30px;
