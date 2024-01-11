@@ -31,7 +31,33 @@ p{
     text-align: left;
 }
 
+i{
+    color: white;
+}
+
 /* Nav */
+
+nav{
+    display: none;
+    line-height: 25px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5;
+    padding: 1rem;
+    background-color: var(--blue);
+}
+
+.navbar .logo{
+    width: 100%;
+}
+.navbar a{
+    width: 70%;
+}
+
 
 
 /* Footer */
