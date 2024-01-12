@@ -1,0 +1,45 @@
+
+
+
+section>article:last-of-type>ul>li i{
+    color: red;
+}
+
+/* Styling af social media links */
+section>article:last-of-type>ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    gap: 0.5rem;
+}
+
+
+/* Sikre at tekster er mellem de 45-75 karaktere og følger mockupen */
+section:nth-of-type(2)>article p:last-of-type{
+    max-width: 51ch;
+}
+
+section:first-of-type>article>p{
+    max-width: 51ch;
+}
+
+
+/* Styling af bælte system */
+section:nth-of-type(3){
+    gap: 2rem;
+    display: grid ;
+    grid-template-columns: 1fr;
+}
+
+section:nth-of-type(3)>article{
+    display: flex;
+}
+
+section:nth-of-type(3)>article p{
+    align-self: center;
+}
+span{
+    display: block;
+    padding-top: 10px;
+}
+
