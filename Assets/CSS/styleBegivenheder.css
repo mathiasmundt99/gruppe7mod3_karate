@@ -22,6 +22,9 @@ section:nth-of-type(2)>article p:last-of-type{
 section:first-of-type>article>p{
     max-width: 51ch;
 }
+section:last-of-type>article p{
+    max-width: 40ch;
+}
 
 
 /* Styling af bælte system */
@@ -41,5 +44,10 @@ section:nth-of-type(3)>article p{
 span{
     display: block;
     padding-top: 10px;
+}
+
+video{
+    width: 430px;
+    height: 245px;
 }
 
