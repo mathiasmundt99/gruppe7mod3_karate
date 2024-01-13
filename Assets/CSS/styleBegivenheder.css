@@ -1,20 +1,22 @@
 
-
-
 section>article:last-of-type>ul>li i{
     color: red;
 }
 
 /* Styling af social media links */
-section>article:last-of-type>ul{
+section:first-of-type>article:first-of-type>ul{
     display: flex;
     list-style-type: none;
     padding: 0px;
     gap: 0.5rem;
 }
+section:first-of-type>img{
+    display: none;
+}
 
 
-/* Sikre at tekster er mellem de 45-75 karaktere og følger mockupen */
+
+/* Sikre at tekster er mellem de 45-75 karaktere*/
 section:nth-of-type(2)>article p:last-of-type{
     max-width: 51ch;
 }
@@ -51,3 +53,7 @@ video{
     height: 245px;
 }
 
+
+@media screen and (min-width:1024px){
+    
+}
