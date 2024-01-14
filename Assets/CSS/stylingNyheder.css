@@ -1,0 +1,31 @@
+button{
+    background: var(--blue);
+    color: white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 5rem;
+}
+
+article{
+    justify-self: center;
+    text-align: center;
+}
+
+p{
+    margin: 0px 0px 1rem 0px;
+}
+.center{
+    width: 49ch;
+}
+
+button{
+    width: 50%;
+    height: 20%;
+    border: none;
+}
+footer{
+    margin-top: 5rem;
+}
