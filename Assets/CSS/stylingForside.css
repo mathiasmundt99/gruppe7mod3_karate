@@ -4,19 +4,53 @@
     box-sizing: border-box;
 }
 
-
-.heroA img{
-
-}
-
-.hero {
-  margin: 0;
-  padding: 0;
-}
-
-.hero img {
- 
-}
  
 
-/**/
+/* Hero */
+
+section .heroSec{
+  display: flex;
+  padding: 0 !important;
+}
+
+.heroDiv {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.heroDiv img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Focused Entry Points */
+
+section .fep{
+  display: flex;
+  padding: 0 !important;
+}
+
+.fepDiv {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fepDiv img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fepDiv h2{
+  color: var(--blue);
+  text-align: center;
+  font-size: 35px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Nyhedssection */
