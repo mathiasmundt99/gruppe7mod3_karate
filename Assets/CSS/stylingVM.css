@@ -1,22 +1,47 @@
-p{
-    margin: 0px 2.25rem 0rem 2.25rem;
-}
-
 img{
     display: block;
     margin: auto;
-    margin-bottom: 1rem;
+}
+p{
+    padding: 0px 36px 0px 36px;
+    /* font-size: 20px; */
 }
 
-img:last-of-type{
-    margin-top: 3rem;
+.spacing{
+    padding-bottom: 4rem;
+}
+.desktoptext{
+    display: none;
 }
 
-span{
-    display: block;
-    margin-top: 1rem;
-}
 
-@media screen and (min-width:1024px){
-    
+@media screen and (min-width:1024px)
+{
+    .headerSpacing{
+        padding-bottom: 4rem;
+    }
+    .spacing{
+        display: none;
+    } 
+    p{
+        padding: 0px;
+    }
+    .desktoptext{
+        display: block;
+    }
+    #noauto{
+        display: inline;
+        margin: 0;
+        max-height: 461px;
+    }
+    p{
+        max-width: 70ch;
+        font-size: 20px;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
 }
