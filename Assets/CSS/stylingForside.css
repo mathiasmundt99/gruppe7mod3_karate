@@ -54,3 +54,14 @@ section .fep{
 }
 
 /* Nyhedssection */
+
+.slider img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+figcaption{
+  font-size: 12px;
+  text-align: center;
+}
