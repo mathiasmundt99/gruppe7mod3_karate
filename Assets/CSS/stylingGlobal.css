@@ -157,17 +157,30 @@ footer{
 
 nav{
     display: flex;
+    justify-content: space-between;
     color: white;
 }
 
 nav li a{
+    transition: all 0.3s ease 0s;
     text-decoration: none;
     color: white;
     font-size: 12px;
 }
 
-nav li{
+nav ul{
     text-decoration: none;
+}
+
+nav li a:hover{
+    transition: all 0.3s ease 0s;
+    color: var(--red);
+}
+
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 10px;
 }
 
 .navbar i{
