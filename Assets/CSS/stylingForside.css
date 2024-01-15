@@ -65,3 +65,26 @@ figcaption{
   font-size: 12px;
   text-align: center;
 }
+
+@media screen and (min-width: 700px){
+
+  
+
+  /* 3Grid Focused Entry Points */
+
+  .grid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .fep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fepDiv {
+    text-align: center;
+  }
+}
