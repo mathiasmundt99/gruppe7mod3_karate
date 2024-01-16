@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+
+
+/* Kontigent og betaling */
+
+ .kontoInfo li {
+    font-size: 16px;
+}
+
+.indmeldesesPris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.indmeldesesPris img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.indmeldelseImg{
+    display: none;
+}
+
+/* Gi section */
+section .giImg{
+    display: flex;
+    padding: 0 !important;
+  }
+  
+  .giDiv {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .giDiv img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  @media screen and (min-width: 1024px)
+  {
+
+    /*Intro section*/
+    .indmeldelseImg{
+        display: flex;
+        padding-top: 6.5rem;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    .indmeldelseImg img{
+        max-width: 100%;
+    }
+    .giDiv{
+        display: flex;
+        max-width: 100%;
+        
+    }
+
+    .giDiv img{
+        max-width: 100%;
+    }
+
+    .grid2 {
+        columns: 2; 
+    }
+    
+    .intro,
+    .intro2 {
+        break-inside: avoid-column; 
+        page-break-inside: avoid; 
+        width: 100%; 
+    }
+
+    .indmeldesesPris{
+        padding-top: 4rem;
+        justify-content: space-around;
+
+    }
+
+    .giDiv{
+        justify-content: center;
+    }
+
+
+  }
