@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
+
+
+/* Kontigent og betaling */
+
+ .kontoInfo li {
+    font-size: 16px;
+}
+
+.indmeldesesPris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.indmeldesesPris img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+/* Gi section */
+section .giImg{
+    display: flex;
+    padding: 0 !important;
+  }
+  
+  .giDiv {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .giDiv img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
