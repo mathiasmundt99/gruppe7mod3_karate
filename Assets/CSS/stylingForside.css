@@ -7,8 +7,16 @@
  
 
 /* Hero */
+/* Med anvendelse af background image */
+.heroSec{
+  background-image: url(../Pictures/hero_forside.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 15rem;
+}
 
-section .heroSec{
+/* section .heroSec{
   display: flex;
   padding: 0 !important;
 }
@@ -23,7 +31,7 @@ section .heroSec{
   max-width: 100%;
   height: auto;
   object-fit: cover;
-}
+} */
 
 /* Intro Section */
 
@@ -49,6 +57,7 @@ section .fep{
   height: auto;
   object-fit: cover;
 }
+
 
 .fepDiv h2{
   color: var(--blue);
@@ -79,6 +88,8 @@ figcaption{
 
 @media screen and (min-width: 700px){
 
+ 
+
   
   /* Intro */
   .grid2 {
@@ -103,7 +114,43 @@ figcaption{
 }
 
 
+  p{
+    font-size: 20px;
+  }
 
+  .fepDiv h2{
+    font-size: 50;
+  }
+ 
+  .heroSec{
+     section .heroSec{
+    display: flex;
+    padding: 0 !important;
+    
+  }
+
+  .heroDiv {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .heroDiv img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  } 
+  }
+
+  .introImg{
+    
+    display: inline-block;
+    
+    width: 42rem;
+    height: 30rem;
+    
+
+  }
   /* 3Grid Focused Entry Points */
 
   .grid3{
