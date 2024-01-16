@@ -82,9 +82,19 @@ figcaption{
   
   /* Intro */
   .grid2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 20px; 
+    columns: 2; /* Set the number of columns */
+}
+
+.intro,
+.intro2 {
+    break-inside: avoid-column; /* Avoid breaking the article across columns */
+    page-break-inside: avoid; /* Additional rule for some browsers */
+    width: 100%; /* Ensure the article takes the full width of the column */
+}
+
+.introImg {
+    max-width: 100%;
+    padding-top: 2.5rem;
 }
 
 
