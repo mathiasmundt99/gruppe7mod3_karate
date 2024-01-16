@@ -82,12 +82,13 @@ video{
         flex-direction: column;
     }
     section:nth-of-type(3)>article img{
-        align-self: center;
+        align-self: end;
     }
     section:nth-of-type(3){
         display: grid;
         grid-template-columns: repeat(3,1fr);
         justify-content: end;
+        /* Center for at fikse på desktop */
         gap: 2rem;
     }
 
