@@ -81,6 +81,17 @@ figcaption{
 
   
   /* Intro */
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+
+.introImg {
+    max-width: 100%; 
+}
+
 
 
   /* 3Grid Focused Entry Points */
@@ -95,6 +106,10 @@ figcaption{
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .introImg {
+    display: flex;
   }
 
   .fepDiv {
