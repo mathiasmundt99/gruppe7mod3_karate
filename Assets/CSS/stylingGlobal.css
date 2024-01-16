@@ -144,6 +144,10 @@ footer{
     
 /* Nav */
 
+h1{
+    text-align: left;
+}
+
 .navbar{
     position: fixed;
     top: 0;
@@ -152,8 +156,8 @@ footer{
 
 .navbar .logo{
     width: 40%;
-    order: 1;
 }
+
 
 nav{
     display: flex;
@@ -186,6 +190,8 @@ nav li{
 .navbar i{
     display: none;
 }
+
+/* Footer */
 
 }
 
