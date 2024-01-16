@@ -1,0 +1,182 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.hero{
+background-image: url(../pictures/Træninghero-img.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 19rem;
+}
+
+.træning-Topcontent h1 {
+text-align: center;
+padding: 10px;
+color: #233780;
+}
+
+.træning-Topcontent p {
+text-align: left;
+padding: 15px;
+font-size: 12px;
+}
+
+.træning-Topcontent ul{
+font-size: 12px;
+}
+    
+.FEP-section{
+display: flex;
+justify-content: space-between;
+text-align: center;
+}
+
+
+.træning-FEP h1{
+text-align: center;
+}
+
+.indmeldelseFEP{
+    display: inline-block;
+}
+
+.indmeldelseFEP img{
+width: 11em;
+height: 10em;
+}
+
+.indmeldelseFEP-knap{
+    background-color:#233780 ;
+    color: white;
+    border: none;
+    width: 11rem;
+    height: 3rem;
+    }
+
+.begivenhederFEP{
+    display: inline-block;
+}
+
+.begivenhederFEP img{
+    width: 11rem;
+    height: 10rem;
+  
+}
+
+.begivenhederFEP-knap{
+background-color:#233780;
+color: white;
+border: none;
+width: 11rem;
+height: 3rem;
+}
+
+
+h3{
+    color: #233780;
+}
+
+h1{
+    color: #233780;
+}
+
+
+ol li{
+padding: 1rem;
+}
+
+.træning-video {
+    display: none;
+}
+
+.etiketter-video{
+    width: fit-content;
+}
+
+.Etiketter-section  p{
+    padding: 0.5rem;
+}
+
+
+
+@media screen and (min-width: 1920px) {
+    
+    p{ 
+    font-size: 20px;}
+
+    h3{
+        font-size: 35px;
+    }
+    
+    h1{
+        font-size: 60px;
+    }
+
+    ol{
+        font-size: 2em;
+
+    }
+
+    .hero{
+        height: 40rem;
+        }
+
+     .træning-Topcontent p{
+            font-size: 20px;
+            }
+
+     .træning-Topcontent ul{
+            font-size: 20px;
+            }
+
+
+    .indmeldelseFEP img{
+        width: 51em;
+        height: 36em;
+        padding: 0;
+    }
+
+    .begivenhederFEP img{
+        width: 51rem;
+        height: 36rem;
+        padding:0;
+    }
+
+    .indmeldelseFEP-knap{
+        width: 33rem;
+        height: 8rem;
+        }
+
+    .begivenhederFEP-knap{
+        width: 33rem;
+        height: 8rem;
+        }
+
+    .FEP-section{
+            display: flex;
+            
+         }
+
+    .træning-video{
+        display: inline-block;
+        margin: 1rem;
+        width: 51rem;
+        height: 29rem;
+
+    }
+
+    aside{
+        float: right;
+    }
+
+    .Etiketter-video{
+       display: none;
+       position: relative;
+
+    }
+}
