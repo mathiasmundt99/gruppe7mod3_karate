@@ -26,7 +26,6 @@ section:nth-of-type(3)>article{
 
 section:nth-of-type(3)>article p{
     align-self: center;
-    width: 35ch;
 }
 span{
     display: block;
@@ -82,12 +81,12 @@ video{
         flex-direction: column;
     }
     section:nth-of-type(3)>article img{
-        align-self: end;
+        align-self: center;
     }
     section:nth-of-type(3){
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        justify-content: end;
+        justify-content: center;
         /* Center for at fikse på desktop */
         gap: 2rem;
     }
@@ -132,8 +131,8 @@ video{
     
     .ulity{
         font-size: 20px;
+        max-width: 56ch;
     }
-
 
     /* Readbility/ karatere per linje */
     #kalenderTekst{
@@ -141,5 +140,12 @@ video{
     }
     .wrapper p{
         width: 46ch;
+    }
+    .mediaLink{
+        width: 35px;
+        aspect-ratio: 1/1;
+    }
+    section:nth-of-type(3)>article p{
+        width: 35ch;
     }
 }
