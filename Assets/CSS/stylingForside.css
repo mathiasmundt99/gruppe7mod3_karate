@@ -4,19 +4,111 @@
     box-sizing: border-box;
 }
 
-.hero{
+ 
+
+/* Hero */
+
+section .heroSec{
+  display: flex;
+  padding: 0 !important;
 }
 
-.hero h1{
-    font-size: 10px;
+.heroDiv {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.heroDiv img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Focused Entry Points */
+
+section .fep{
+  display: flex;
+  padding: 0 !important;
+}
+
+.fepDiv {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fepDiv img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fepDiv h2{
+  color: var(--blue);
+  text-align: center;
+  font-size: 35px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+/* Nyhedssection */
+
+.slider img{
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+figcaption{
+  font-size: 12px;
+  text-align: center;
+}
+
+.grid3 .nyhedsSec:nth-last-child(-n+2) {
+  display: none;
 }
 
 
-  .hero img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the image covers the entire container */
-    display: block;
+@media screen and (min-width: 700px){
+
+  
+
+  /* 3Grid Focused Entry Points */
+
+  .grid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
 
-/**/
+  .fep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fepDiv {
+    text-align: center;
+  }
+  
+/* Nyhedssektion */
+
+.nyhedsSec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider {
+  text-align: center;
+}
+
+/* -n+2 Sørger for at vi kan target de 2 sidste billeder, da -n er den bagerste i rækken */
+
+  .grid3 .nyhedsSec:nth-last-child(-n+2) {
+    display: grid;
+  }
+
+}

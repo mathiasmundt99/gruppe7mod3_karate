@@ -31,6 +31,7 @@ h1{
     font-weight: bold;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 
 h2{
@@ -45,6 +46,12 @@ p{
     text-align: left;
     font-family: 'Lato', sans-serif;
 }
+
+ul li {
+    font-size: 12px;
+      text-align: left;
+      font-family: 'Lato', sans-serif;
+  }
 
 i{
     color: white;
@@ -73,7 +80,30 @@ nav{
     width: 70%;
 }
 
+/* Button */
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    left: 50%;
+    transform: translateX(50%);
+    
+}
 
+.button {
+    display: block;
+    padding: 1rem 2.5rem;
+    background-color: var(--blue); 
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
 
 /* Footer */
 footer{
@@ -112,4 +142,56 @@ footer{
 
 @media screen and (min-width: 700px){
     
+/* Nav */
+
+h1{
+    text-align: left;
 }
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .logo{
+    width: 40%;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+nav li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+nav ul{
+    text-decoration: none;
+}
+
+nav li a:hover{
+    transition: all 0.3s ease 0s;
+    color: var(--red);
+}
+
+nav li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.navbar i{
+    display: none;
+}
+
+/* Footer */
+
+}
+

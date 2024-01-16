@@ -1,0 +1,47 @@
+img{
+    display: block;
+    margin: auto;
+}
+p{
+    padding: 0px 36px 0px 36px;
+    /* font-size: 20px; */
+}
+
+.spacing{
+    padding-bottom: 4rem;
+}
+.desktoptext{
+    display: none;
+}
+
+
+@media screen and (min-width:1024px)
+{
+    .headerSpacing{
+        padding-bottom: 4rem;
+    }
+    .spacing{
+        display: none;
+    } 
+    p{
+        padding: 0px;
+    }
+    .desktoptext{
+        display: block;
+    }
+    #noauto{
+        display: inline;
+        margin: 0;
+        max-height: 461px;
+    }
+    p{
+        max-width: 70ch;
+        font-size: 20px;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+}
