@@ -55,6 +55,7 @@ section .giImg{
         display: flex;
         padding-top: 6.5rem;
         max-width: 100%;
+        justify-content: center;
     }
 
     .indmeldelseImg img{
@@ -83,8 +84,12 @@ section .giImg{
 
     .indmeldesesPris{
         padding-top: 4rem;
-        justify-content: space-between;
-        margin: 45px;
+        justify-content: space-around;
+
+    }
+
+    .giDiv{
+        justify-content: center;
     }
 
 
