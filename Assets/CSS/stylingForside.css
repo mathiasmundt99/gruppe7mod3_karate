@@ -25,6 +25,12 @@ section .heroSec{
   object-fit: cover;
 }
 
+/* Intro Section */
+
+.introImg{
+  display: none;
+}
+
 /* Focused Entry Points */
 
 section .fep{
@@ -74,6 +80,8 @@ figcaption{
 @media screen and (min-width: 700px){
 
   
+  /* Intro */
+
 
   /* 3Grid Focused Entry Points */
 
@@ -95,15 +103,17 @@ figcaption{
   
 /* Nyhedssektion */
 
-.nyhedsSec {
+
+.nyheder {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.slider {
-  text-align: center;
+.nyhedsSec {
+  margin-bottom: 20px; /* Adjust as needed for spacing between pictures */
 }
+
 
 /* -n+2 Sørger for at vi kan target de 2 sidste billeder, da -n er den bagerste i rækken */
 

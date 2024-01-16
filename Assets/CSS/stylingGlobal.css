@@ -71,6 +71,7 @@ nav{
     margin: 1.5;
     padding: 1rem;
     background-color: var(--blue);
+    z-index: 9000;
 }
 
 .navbar .logo{
