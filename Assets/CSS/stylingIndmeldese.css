@@ -25,6 +25,10 @@
     max-height: 100%; 
 }
 
+.indmeldelseImg{
+    display: none;
+}
+
 /* Gi section */
 section .giImg{
     display: flex;
@@ -41,4 +45,47 @@ section .giImg{
     max-width: 100%;
     height: auto;
     object-fit: cover;
+  }
+
+  @media screen and (min-width: 1024px)
+  {
+
+    /*Intro section*/
+    .indmeldelseImg{
+        display: flex;
+        padding-top: 6.5rem;
+        max-width: 100%;
+    }
+
+    .indmeldelseImg img{
+        max-width: 100%;
+    }
+    .giDiv{
+        display: flex;
+        max-width: 100%;
+        
+    }
+
+    .giDiv img{
+        max-width: 100%;
+    }
+
+    .grid2 {
+        columns: 2; 
+    }
+    
+    .intro,
+    .intro2 {
+        break-inside: avoid-column; 
+        page-break-inside: avoid; 
+        width: 100%; 
+    }
+
+    .indmeldesesPris{
+        padding-top: 4rem;
+        justify-content: space-between;
+        margin: 45px;
+    }
+
+
   }
