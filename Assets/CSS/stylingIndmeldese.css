@@ -60,6 +60,7 @@ section .giImg{
 
     .indmeldelseImg img{
         max-width: 100%;
+        padding-top: 5.5rem;
     }
     .giDiv{
         display: flex;
@@ -72,11 +73,21 @@ section .giImg{
     }
 
     .grid2 {
-        columns: 2; 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        margin-bottom: 3rem;
+    }
+
+    .left{
+        grid-column: 1;
+    }
+
+    .right{
+        grid-column: -1;
     }
     
-    .intro,
-    .intro2 {
+    .left,
+    .right {
         break-inside: avoid-column; 
         page-break-inside: avoid; 
         width: 100%; 
@@ -90,6 +101,10 @@ section .giImg{
 
     .giDiv{
         justify-content: center;
+    }
+
+    .giDiv img{
+        padding-top: 2.5rem;
     }
 
 
