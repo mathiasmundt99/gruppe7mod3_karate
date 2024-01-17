@@ -7,16 +7,6 @@
  
 
 /* Hero */
-/* Med anvendelse af background image */
-/*
-.heroSec{
-  background-image: url(../Pictures/hero_forside.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 15rem;
-}
-*/
 
  section .heroSec{
   display: flex;
@@ -83,7 +73,19 @@ figcaption{
   text-align: center;
 }
 
-.grid3 .nyhedsSec:nth-last-child(-n+2) {
+.nyhedsH2{
+  font-size: 22px;
+  font-weight:400;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.grid-news img{
+  display: flex;
+  max-width: 100%;
+}
+
+.grid-newsDiv .grid-news:nth-last-child(-n+2) {
   display: none;
 }
 
@@ -100,9 +102,9 @@ figcaption{
 
 .intro,
 .intro2 {
-    break-inside: avoid-column; /* Avoid breaking the article across columns */
-    page-break-inside: avoid; /* Additional rule for some browsers */
-    width: 100%; /* Ensure the article takes the full width of the column */
+    break-inside: avoid-column; 
+    page-break-inside: avoid; 
+    width: 100%; 
 }
 
 .introImg {
@@ -177,22 +179,38 @@ figcaption{
   
 /* Nyhedssektion */
 
-
-.nyheder {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.nyhedsH2{
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
 }
 
-.nyhedsSec {
-  margin-bottom: 20px; /* Adjust as needed for spacing between pictures */
+.grid-newsDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
 
+.grid-news {
+  text-align: center;
+}
+
+.grid-news img {
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-news p{
+  text-align: center;
+  font-size: 20;
+}
 
 /* -n+2 Sørger for at vi kan target de 2 sidste billeder, da -n er den bagerste i rækken */
 
-  .grid3 .nyhedsSec:nth-last-child(-n+2) {
-    display: grid;
-  }
+.grid-newsDiv .grid-news:nth-last-child(-n+2) {
+  display: grid;
+}
 
 }
