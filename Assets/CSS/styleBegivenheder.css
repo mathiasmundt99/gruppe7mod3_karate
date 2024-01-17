@@ -44,6 +44,13 @@ video{
     height: 245px;
 }
 
+/*Calender*/
+
+.calenderSec{
+    padding: 0;
+}
+
+
 @media screen and (min-width:1024px)
 {
     section:first-of-type img{
@@ -156,5 +163,9 @@ video{
     }
     img{
         margin-top: 2.5rem;
+    }
+
+    .calenderSec{
+        padding: 2rem;
     }
 }
