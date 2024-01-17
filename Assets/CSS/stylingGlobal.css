@@ -184,6 +184,11 @@ ul li {
     font-size: 20px;
   }
 
+  .button:hover{
+    transition: all 0.3s ease 0s;
+    background-color: #E41F27;
+  }
+
 .navbar .logo{
     width: 40%;
 }
