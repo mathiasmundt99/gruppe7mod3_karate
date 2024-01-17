@@ -75,7 +75,7 @@ figcaption{
 
 .nyhedsH2{
   font-size: 22px;
-  font-weight:400;
+  font-weight:bold;
   font-family: 'Lato', sans-serif;
   text-align: center;
 }
@@ -90,7 +90,7 @@ figcaption{
 }
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1024px){
 
  
 
