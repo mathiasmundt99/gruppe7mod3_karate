@@ -13,6 +13,13 @@ section:first-of-type>article:first-of-type>ul{
     display: none;
 }
 
+h2{
+    margin-bottom: 8px;
+}
+.ulity{
+    margin-top: 0px;
+}
+
 /* Styling af bælte system */
 section:nth-of-type(3){
     gap: 2rem;
@@ -106,7 +113,7 @@ video{
     
     /* Google kalender */
     iframe{
-        padding: 1rem;
+        /* padding: 1rem; */
         width: 820px;
         height: 600px;
     }
@@ -147,5 +154,8 @@ video{
     }
     section:nth-of-type(3)>article p{
         width: 35ch;
+    }
+    img{
+        margin-top: 2.5rem;
     }
 }
