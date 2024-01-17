@@ -44,7 +44,6 @@ video{
     height: 245px;
 }
 
-
 @media screen and (min-width:1024px)
 {
     section:first-of-type img{
