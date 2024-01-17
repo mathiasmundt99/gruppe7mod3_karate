@@ -64,8 +64,14 @@ nav{
     line-height: 25px;
 }
 
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar{
     display: flex;
+    flex-grow: 0;
     justify-content: space-between;
     align-items: center;
     margin: 1.5;
@@ -74,12 +80,22 @@ nav{
     z-index: 9000;
 }
 
+.navbar a{
+    max-width: 50%;
+}
+
 .navbar .logo{
     width: 100%;
 }
-.navbar a{
-    width: 70%;
+
+.iconNav {
+    display: flex;
 }
+
+.iconNav i{
+    padding: 1rem;
+}
+
 
 /* Button */
 .btnDiv {
@@ -141,22 +157,44 @@ footer{
 }
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1024px){
     
 /* Nav */
 
 h1{
+    font-size: 60px;
     text-align: left;
 }
 
-/*.navbar{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}*/
+h2{
+    font-size: 35px;
+}
+
+p{
+    font-size: 20px;
+}
+
+ul li {
+    font-size: 20px;
+      text-align: left;
+      font-family: 'Lato', sans-serif;
+  }
+
+  .button{
+    font-size: 20px;
+  }
+
+  .button:hover{
+    transition: all 0.3s ease 0s;
+    background-color: #E41F27;
+  }
 
 .navbar .logo{
     width: 40%;
+}
+
+section{
+    padding: 2rem;
 }
 
 
