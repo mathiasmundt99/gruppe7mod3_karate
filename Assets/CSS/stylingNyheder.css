@@ -27,13 +27,6 @@ p{
     margin: 0px 0px 1rem 0px;
 }
 
-/* Styling af knappr */
-/* button{
-    width: 50%;
-    height: 20%;
-    border: none;
-} */
-
 /* Afstand mellem main indhold of footer */
 footer{
     margin-top: 5rem;
@@ -59,9 +52,6 @@ footer{
     main>article:nth-of-type(2){
         grid-column: 2;
     }
-    /* button{
-        height: 10%;
-    } */
     p{
         text-align: center;
     }
@@ -72,10 +62,7 @@ footer{
     main article:first-of-type p{
         font-size: 19.3px;
     }
-    /* button:hover{
-        background-color: #E41F27;
-        transition: 100ms;
-    } */
+
     .desktopbillede{
         display: inline;
     }
