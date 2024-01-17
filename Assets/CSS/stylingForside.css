@@ -8,6 +8,7 @@
 
 /* Hero */
 /* Med anvendelse af background image */
+/*
 .heroSec{
   background-image: url(../Pictures/hero_forside.png);
   background-size: cover;
@@ -15,8 +16,9 @@
   background-position: center;
   height: 15rem;
 }
+*/
 
-/* section .heroSec{
+ section .heroSec{
   display: flex;
   padding: 0 !important;
 }
@@ -31,7 +33,7 @@
   max-width: 100%;
   height: auto;
   object-fit: cover;
-} */
+} 
 
 /* Intro Section */
 

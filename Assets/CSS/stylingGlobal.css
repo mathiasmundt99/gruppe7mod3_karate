@@ -159,6 +159,10 @@ h1{
     width: 40%;
 }
 
+section{
+    padding: 2rem;
+}
+
 
 nav{
     display: flex;
