@@ -6,7 +6,9 @@ p{
     padding: 0px 36px 0px 36px;
     /* font-size: 20px; */
 }
-
+.utility{
+    padding: 0px 21px 0px 21px;
+}
 .spacing{
     padding-bottom: 4rem;
 }
@@ -43,5 +45,12 @@ p{
         flex-direction: row-reverse;
         justify-content: space-evenly;
         gap: 1rem;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    .utility{
+        padding: 0px;
     }
 }
