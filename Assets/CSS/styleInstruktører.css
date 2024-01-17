@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+
 img {
     width: 174px;
     height: 221px;
