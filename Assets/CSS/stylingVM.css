@@ -15,12 +15,20 @@ p{
 .desktoptext{
     display: none;
 }
+.desktopbillede{
+    display: none;
+}
 
 
 @media screen and (min-width:1024px)
 {
+    /* Display none bruges til at gemme det vi ikke skal bruge længere */
+    /* Afstand mellem nyheder header og selv artiklens */
     .headerSpacing{
         padding-bottom: 4rem;
+    }
+    .mobilbillede{
+        display: none;
     }
     .spacing{
         display: none;
@@ -46,11 +54,15 @@ p{
         justify-content: space-evenly;
         gap: 1rem;
     }
+    /* Billedet bliver responsiv */
     img{
         max-width: 100%;
         height: auto;
     }
     .utility{
         padding: 0px;
+    }
+    .desktopbillede{
+        display: inline;
     }
 }

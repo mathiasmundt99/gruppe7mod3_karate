@@ -4,36 +4,47 @@ button{
     color: white;
 }
 
+/* Grid 1 kolonne på mobil */
 main{
     justify-items: center; 
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 5rem;
 }
+/* Desktop billede kommer ikke frem hvis de er på mobil */
+/* ALTERNATIV LØSNING FORDI SRCSET IKKE VIRKER */
+.desktopbillede{
+    display: none;
+}
 
+/* Knapper bliver alignet i midten */
 article{
     text-align: center;
 }
 
+/* Lidt margin til til paraghraps så de passer på mobil verion */
 p{
     margin: 0px 0px 1rem 0px;
 }
 
+/* Styling af knappr */
 button{
     width: 50%;
     height: 20%;
     border: none;
 }
 
+/* Afstand mellem main indhold of footer */
 footer{
     margin-top: 5rem;
 }
 
-
+/* Desktop starter fra 1024 */
 @media screen and (min-width:1024px){
+    /* Istedet for en kolonne er det nu 3 kolonner */
     main{
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 1rem;
+        column-gap: 1.5rem;
         /* justify-content: center; */
     }
     article{
@@ -57,6 +68,19 @@ footer{
     main img{
         max-width: 100%;
         height: auto;
+    }
+    main article:first-of-type p{
+        font-size: 19.3px;
+    }
+    button:hover{
+        background-color: #E41F27;
+        transition: 100ms;
+    }
+    .desktopbillede{
+        display: inline;
+    }
+    .mobilbillede{
+        display: none;
     }
     
 }
