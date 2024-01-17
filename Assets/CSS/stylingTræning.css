@@ -32,7 +32,7 @@
     
 .FEP-section{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
 }
 
@@ -70,22 +70,8 @@
   
 }
 
-.begivenhederFEP-knap{
-    background-color:#233780;
-    color: white;
-    border: none;
-    width: 11rem;
-    height: 3rem;
-}
 
 
-h3{
-    color: #233780;
-}
-
-h1{
-    color: #233780;
-}
 
 /* etiketter sektion */
 .etiketter h3{
@@ -154,16 +140,14 @@ h1{
 
 
     .indmeldelseFEP img{
-        width: 51em;
-        height: 36em;
-        padding: 0;
+        width: 450px;
+        height: auto;
     }
 
 
     .begivenhederFEP img{
-        width: 51rem;
-        height: 36rem;
-        padding:0;
+        width: 450px;
+        height: auto;
     }
 
     .begivenhederFEP h1{
@@ -173,27 +157,12 @@ h1{
     .indmeldelseFEP h1{
             text-align: center;
         }
-        
-
-    .indmeldelseFEP-knap{
-        width: 33rem;
-        height: 8rem;
-        font-size: 30px;
-        }
-
-    .begivenhederFEP-knap{
-        width: 33rem;
-        height: 8rem;
-        font-size: 30px;
-        }
-
     
     .FEP-section{
             display: flex;
-            
          }
 
-
+         
     aside{
         float: right;
     }
