@@ -232,5 +232,42 @@ nav li{
 
 /* Footer */
 
+
+
+/*
+footer{
+    background-color: var(--blue);
+    text-align: left;
+}
+
+.foot{
+    color: white;
+    margin: 1.5rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot h3{
+    font-size: 16px;
+}
+
+.foot a{
+    width: 25%; 
+    display: flex;
+    align-items: center;;
+}
+
+.foot .logo{
+    width: 100%;
+    height: auto;
+    }
+
+.foot i{
+    font-size: 30px;
+    padding-right: 2rem;
+}
+*/
+
 }
 
