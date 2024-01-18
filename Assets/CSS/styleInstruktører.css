@@ -4,21 +4,29 @@
     box-sizing: border-box;
 }
 
+/* Koden er kopieret fra besryrelse da det er ens */ 
+.grid-container {
+    grid-template-columns: 1fr;
+  }
 
-img {
-    width: 174px;
-    height: 221px;
-}
+  .bestyrelse {
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
 
-.undertekst {
-    margin-top: 0;
-}
+  .bestyrelse p {
+    margin-left: 50px;
+      width: 80%; 
+      margin: 0 auto; 
+      text-align: center;
+  }
 
-.instruktører {
-    margin-bottom: 40px;
-    margin-top: 40px;
-    display: flex;
-}
+  .bestyrelse img {
+    max-width: 100%;
+    height: auto;
+  }
+
 
 .tekst {
     display: flex;
@@ -28,13 +36,15 @@ img {
     margin-right: 10px;
 }
 
+
 @media screen and (min-width:1024px) {
 
     /* Styling af skrift og img på pc */
 
     h3 {
         font-size: 40px;
-        margin-bottom: 44px;
+        margin-top: 0;
+        margin-bottom: 1rem;
     }
 
     .alleInstruktører img {
@@ -46,20 +56,17 @@ img {
 
     /* Styling af instruktærer på pc */
 
-    .alleInstruktører {
+    .gridBestyrelse {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-    }
-
+        grid-template-rows: repeat(2, 1fr);
+        gap: 20px;
+        padding: 20px;
+      }
+    
     .tekst {
         display: block;
         text-align: left;
-    }
-
-    .instruktører {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
     }
 
     .tekst h3 {
