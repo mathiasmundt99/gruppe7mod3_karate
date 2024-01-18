@@ -30,48 +30,25 @@
     font-size: 12px;
 }
     
-.FEP-section{
+/*FEP*/
+
+.FEP-section {
     display: flex;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    flex-direction: column; 
 }
 
-
-.træning-FEP h1{
-    text-align: center;
+.indmeldelseFEP,
+.begivenhederFEP {
+    margin: 0 30px; 
 }
 
-
-
-.indmeldelseFEP{
-    display: inline-block;
+.FEP-billed {
+    max-width: 100%; 
+    height: auto; 
 }
-
-.indmeldelseFEP img{
-    width: 11em;
-    height: 10em;
-}
-
-.indmeldelseFEP-knap{
-    background-color:#233780 ;
-    color: white;
-    border: none;
-    width: 11rem;
-    height: 3rem;
-    }
-
-.begivenhederFEP{
-    display: inline-block;
-}
-
-.begivenhederFEP img{
-    width: 11rem;
-    height: 10rem;
-  
-}
-
-
-
 
 /* etiketter sektion */
 .etiketter h3{
@@ -138,24 +115,10 @@
             font-size: 20px;
             }
 
+        /*FEP sec*/
 
-    .indmeldelseFEP img{
-        width: 450px;
-        height: auto;
-    }
-
-
-    .begivenhederFEP img{
-        width: 450px;
-        height: auto;
-    }
-
-    .begivenhederFEP h1{
-        text-align: center;
-        }
-
-    .indmeldelseFEP h1{
-            text-align: center;
+    .FEP-section {
+         flex-direction: row; 
         }
     
     .FEP-section{

@@ -60,7 +60,7 @@ section .giImg{
 
     .indmeldelseImg img{
         max-width: 100%;
-        padding-top: 5.5rem;
+        padding-top: 6rem;
     }
     .giDiv{
         display: flex;
