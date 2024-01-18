@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.gridBestyrelse {
+    grid-template-columns: 1fr;
+  }
+
+  .bestyrelse {
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .bestyrelse p {
+    margin-left: 50px;
+      width: 80%; 
+      margin: 0 auto; 
+      text-align: center;
+  }
+
+  .bestyrelse img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  h3 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 1024px){
+
+.gridBestyrelse {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+}

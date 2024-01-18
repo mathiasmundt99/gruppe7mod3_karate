@@ -32,6 +32,11 @@ footer{
     margin-top: 5rem;
 }
 
+/* Fjerne underline på a tag inde i knappen */
+#NoUnderline{
+    text-decoration: none;
+}
+
 /* Desktop starter fra 1024 */
 @media screen and (min-width:1024px){
     /* Istedet for en kolonne er det nu 3 kolonner */

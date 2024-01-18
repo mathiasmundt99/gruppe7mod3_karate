@@ -46,6 +46,11 @@ video{
 
 /*Calender*/
 
+iframe{
+    border-width: 0px; 
+    overflow-y: hidden;
+}
+
 .calenderSec{
     padding: 0;
 }
