@@ -44,6 +44,16 @@ video{
     height: 245px;
 }
 
+.layoutImg {
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.layoutImg img{
+    max-width: 100%;
+}
+
 /*Calender*/
 
 iframe{
