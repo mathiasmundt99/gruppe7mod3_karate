@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
 /* Styling af social media links */
 section:first-of-type>article:first-of-type>ul{
     display: flex;
@@ -182,5 +190,9 @@ iframe{
 
     .calenderSec{
         padding: 2rem;
+    }
+
+    .logo{
+        margin-top: 0;
     }
 }
