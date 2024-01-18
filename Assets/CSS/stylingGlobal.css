@@ -160,7 +160,6 @@ footer{
 
 @media screen and (min-width: 1024px){
     
-/* Nav */
 
 h1{
     font-size: 60px;
@@ -190,18 +189,26 @@ ul li {
     background-color: #E41F27;
   }
 
+
+/* Nav */
+
 .navbar .logo{
-    width: 40%;
+    width: 80%;
 }
 
 section{
     padding: 2rem;
 }
 
+.navbar{
+    display: flex;
+    justify-content: center;
+}
 
 nav{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    padding-right: 2rem;
     color: white;
 }
 
@@ -209,7 +216,7 @@ nav li a{
     transition: all 0.3s ease 0s;
     text-decoration: none;
     color: white;
-    font-size: 12px;
+    font-size: 20px;
 }
 
 nav ul{
@@ -238,33 +245,6 @@ nav li{
     display: flex;
     align-items: center;;
 }
-
-/*
-footer{
-    background-color: var(--blue);
-    text-align: left;
-}
-
-.foot{
-    color: white;
-    margin: 1.5rem;
-    padding: 1rem;
-    align-items: center;
-    justify-content: center;
-}
-
-.foot h3{
-    font-size: 16px;
-}
-
-
-
-
-.foot i{
-    font-size: 30px;
-    padding-right: 2rem;
-}
-*/
 
 }
 
