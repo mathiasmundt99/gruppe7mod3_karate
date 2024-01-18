@@ -233,7 +233,11 @@ nav li{
 
 /* Footer */
 
-
+.foot a{
+    width: 15%; 
+    display: flex;
+    align-items: center;;
+}
 
 /*
 footer{
@@ -253,16 +257,8 @@ footer{
     font-size: 16px;
 }
 
-.foot a{
-    width: 25%; 
-    display: flex;
-    align-items: center;;
-}
 
-.foot .logo{
-    width: 100%;
-    height: auto;
-    }
+
 
 .foot i{
     font-size: 30px;
