@@ -132,6 +132,7 @@ footer{
 .foot{
     color: white;
     margin: 1.5rem;
+    margin-bottom: 0;
     padding: 1rem;
     align-items: center;
     justify-content: center;
